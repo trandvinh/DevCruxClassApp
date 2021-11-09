@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:vt="clr-namespace:DevCruxClassApp.Controls"
+             x:Class="DevCruxClassApp.Views.TestViewPage">
+    <StackLayout Spacing="10" Padding="10">
+        <Frame CornerRadius="20" Padding="0" HasShadow="True">
+            <Button Text="Delete" ImageSource="Delete.png"   BackgroundColor="red" ContentLayout="Right,10"/>
+        </Frame>
+        <Frame CornerRadius="20" Padding="0" HasShadow="True">
+            <!--<Button Text="Delete" ImageSource="Delete.png"   BackgroundColor="Aqua" ContentLayout="Right,10">
+                </Button> -->
+            <vt:VTButtonControl  Text="Favorite" ImageSource="favorite.png"   BackgroundColor="Aqua"></vt:VTButtonControl>
+        </Frame>
+    </StackLayout>
+</ContentPage>
